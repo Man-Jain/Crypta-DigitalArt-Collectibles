@@ -17,7 +17,7 @@ module.exports = {
       },
       network_id: 3
     },
-    ropsten: {
+    goerli: {
       provider: function() {
         return new HDWalletProvider(data, "https://goerli.infura.io/v3/53e706eaa088405491d1e311f6a6938b")
       },
